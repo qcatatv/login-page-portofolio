@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    background-color: #233245;
+    font-family: 'Inter';
+}
+
+.login-page{
+    background-color: #011222;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    width: 45vh;
+}
+
+.login-title{
+    text-align: center;
+    margin-bottom: 8vh;
+}
+
+.login-title h1{
+    font-weight: bold;
+}
+
+.username-login .login-text{
+    font-size: 15px;
+    margin-right: 24vh;
+    font-weight: 400;
+}
+
+.login-password{
+    margin-top: 5vh;
+}
+
+input{
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 0px solid;
+    border-bottom: 2px #fff solid;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login-password .login-text{
+    font-size: 15px;
+    margin-right: 24vh;
+    font-weight: 400;
+}
+
+.login-button .login-bt{
+    color: black;
+    display: flex;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.login-bt{
+    background-color: white;
+    padding: 5px 0px;
+    font-size: 20px;
+    width: 28vh;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 19px -2px white;
+}
+
+.login-width-other{
+    margin-top: 5vh;
+}
+
+.login-width-other h1{
+    font-size: 15px;
+}
+
+.login-width-other .other-method{
+    color: white;
+    margin-top: 1vh;
+    display: grid;
+    grid-template-columns: repeat(3, 0.13fr);
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.login-width-other .other-method .website-logo:hover{
+    transition: all 0.5s ease-out;;
+}
+
+.login-width-other .other-method .website-logo:hover{
+    color: #FCE803;
+}
+
+.login-dont-have-account{
+    margin-top: 10vh;
+}
+
+.login-dont-have-account h1{
+    font-size: 15px;
+}
+
+.sign-up{
+    cursor: pointer;
+    background-color: transparent;
+    text-shadow: 0px 0px 19px white;
+}
+
+.product-of{
+    margin-top: 5vh;
+}
+
+.product-of h1{
+    font-size: 18px;
+}
+
+.qdev{
+    color: black;
+    background-color: #FCE803;
+    padding: 0px 5px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 19px -2px #FCE803;
+    cursor: pointer;
+    font-weight: 600;
+}
